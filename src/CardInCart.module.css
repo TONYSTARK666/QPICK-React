@@ -1,0 +1,89 @@
+.card {
+    border-radius: 30px;
+    width: 633px;
+    height: 218px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 18px;
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.card img {
+    display: block;
+    width: 146px;
+    height: 136px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #1c1c27;
+}
+
+.price {
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: #aaa;
+}
+
+.delete {
+    color: #df6464;
+    background: none;
+    border: none;
+    justify-self: end;
+    align-self: self-start;
+    cursor: pointer;
+}
+
+.delete_icon {
+    width: 25px;
+    height: 20px;
+}
+
+.change {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.change button {
+    background: none;
+    border: none;
+}
+
+.change button svg {
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: #ffce7f;
+}
+
+.change p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000;
+}
+
+.summary {
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: right;
+    color: #1c1c27;
+    align-self: flex-end;
+}

@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    display: block;
+    margin-right: auto;
+}
+
+.link {
+    position: relative;
+    width: 30px;
+    padding: 3px;
+}
+
+.like,
+.cart {
+    width: 23px;
+    height: 25px;
+    color: #838383;
+    transition: all 500ms ease;
+}
+
+.cart:hover {
+    color: black;
+}
+
+.like:hover {
+    color: #fd0054;
+}
+
+.circle {
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    background-color: var(--orange);
+    border-radius: 30px;
+    padding: 0 4px;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}

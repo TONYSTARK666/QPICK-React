@@ -1,0 +1,15 @@
+.section {
+    margin-bottom: 30px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #838383;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
